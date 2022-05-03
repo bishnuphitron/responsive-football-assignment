@@ -8,13 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.container{
-    border: 1px solid red;
-    width: 1143px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 /* ----------------------
     header styles
@@ -26,7 +20,14 @@ header{
     justify-content: center;
     align-items: center;
 }
-h1{
+.header-container{
+    border: 1px solid red;
+    width: 1143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
     font-size: 64px;
     color: #FFFFFF;
     line-height: 80px;
@@ -34,7 +35,7 @@ h1{
     margin-bottom: 37px;
 }
 
-a{
+header a{
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 24px;
@@ -46,7 +47,32 @@ a{
 .fa-arrow-right{
     margin-left: 8px;
 }
-
 .banner img{
     width: 556px;
+}
+
+/* ----------------------
+    players styles
+-------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 10px 10px 60px lightgray;
+}
+.player img{
+    width: 300px;
+    height: 256px;
 }
