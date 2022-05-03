@@ -76,3 +76,36 @@ main{
     width: 300px;
     height: 256px;
 }
+
+/* ----------------------
+    footer styles
+-------------------------*/
+footer{
+    border: 1px solid green;
+    text-align: center;
+    padding: 63px 0;
+    margin-top: 95px;
+}
+footer img{
+    width: 484px;
+    border: 1px solid rebeccapurple;
+}
+.social-icons{
+    border: 1px solid red;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.fa-brands{
+    width: 18px;
+    padding: 8px;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 50%;
+    color: #969BAB;
+}
+footer p{
+    border: 1px solid #E02C6D;
+    font-size: 18px;
+    margin: 0;
+}
